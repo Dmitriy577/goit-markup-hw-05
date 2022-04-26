@@ -61,7 +61,7 @@ ul{
     Line-height: 1.1721;
     padding-top: 24px;
     padding-bottom: 24px;
-    transition: color 250ms;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -125,10 +125,10 @@ ul{
 }
 .icon-header {
     margin-right: 10px;
-    transition-property: fill;
-    transition-duration: 250ms;
+    
+    fill: currentColor;
+    
   }
-
 /*hero*/
 
 .hero{
@@ -325,7 +325,7 @@ ul{
     height: 44px;
     fill: #afb1b8;
     margin-right: 10px;
-    transition: background-color 250ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 50%;
 
 }
@@ -363,22 +363,24 @@ ul{
     fill: #afb1b8;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    transition: 250ms;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .claint-logo-icon:last-child{
     margin-right: 0;
 }
-.logo-icon-ho:hover{
+.logo-icon-ho:hover,
+.logo-icon-ho:focus{
     fill: #2196F3;
-    transition: 250ms;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-icon-ho{
     padding: 16px 32px;
     fill: #AFB1B8;
-    transition: 250ms;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.claint-logo-icon:hover{
+.claint-logo-icon:hover,
+.claint-logo-icon:focus{
     fill: #2196F3;
     border: 1px solid #2196F3;
 }
@@ -434,14 +436,14 @@ ul{
     fill: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    transition: background-color 250ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contin-social-icon:hover,
 .contin-social-icon:focus {
     fill: #FFFFFF;
     background-color: #2196f3;
     border-radius: 50%;
-    transition: background-color 250ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contin-icon-team{
     margin-right: 10px;
@@ -487,7 +489,7 @@ ul{
     border: 0;
 }
 .button-port{
-    transition: background-color 250ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*photo page2*/
 
@@ -569,10 +571,10 @@ ul{
 }
 .names-tumb:hover .text-projects {
 	transform: translateY(-294px);
-    transition-duration: 250ms;
+    transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .names-tumb > .text-projects{
-    transition-duration: 250ms;
+    transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*модальное*/
 
@@ -619,7 +621,7 @@ ul{
     align-items: center;
     justify-content: center;
   
-    transition: background-color 250ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .is-hidden {
