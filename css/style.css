@@ -360,10 +360,6 @@ ul{
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    fill: #afb1b8;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .claint-logo-icon:last-child{
     margin-right: 0;
@@ -371,19 +367,17 @@ ul{
 .logo-icon-ho:hover,
 .logo-icon-ho:focus{
     fill: #2196F3;
+    border: 1px solid #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-icon-ho{
     padding: 16px 32px;
     fill: #AFB1B8;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
 }
 
-.claint-logo-icon:hover,
-.claint-logo-icon:focus{
-    fill: #2196F3;
-    border: 1px solid #2196F3;
-}
  /*footer*/
 
 .footer{
